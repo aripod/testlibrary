@@ -13,4 +13,4 @@ AC_PROG_LIBTOOL
 AC_OUTPUT([Makefile
 	src/Makefile
 	test/Makefile
-	calc_mean-libs.pc])
+	calc_mean.pc])

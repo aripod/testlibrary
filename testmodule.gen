@@ -1,0 +1,14 @@
+component testmodule{
+	version		"1.0";
+	lang		"c";
+	require		"genom3 >= 2.99.24";
+    codels-require "calc_mean-libs";
+
+	task A{
+		period		500ms;
+		priority	100;
+		stack		4000;
+
+		codel <start> 	InitModule() yield ether;
+	};
+};

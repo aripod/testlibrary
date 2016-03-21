@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: @PACKAGE_NAME@
+Description: calc_mean test
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -lcalc_mean
+Cflags: -I${includedir}

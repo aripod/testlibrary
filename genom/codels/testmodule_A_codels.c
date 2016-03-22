@@ -2,10 +2,7 @@
 
 #include "testmodule_c_types.h"
 
-#include <stdio.h>
-
-//#include <calc_mean.h>
-
+#include "calc_mean/calc_mean.h"
 /* --- Task A ----------------------------------------------------------- */
 
 
@@ -19,7 +16,7 @@ InitModule(genom_context self)
 {
     double a=10, b=4, m;
 
-    //m = mean(a,b);
+    m = mean(a,b);
 
     printf("MEAN: %f\n", m);
 
